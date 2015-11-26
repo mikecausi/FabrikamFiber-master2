@@ -1,0 +1,34 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "websiteName": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "FreeHostPlan"
+        },
+        "siteLocation": {
+            "value": ""
+        },
+        "serverName": {
+            "value": ""
+        },
+        "serverLocation": {
+            "value": ""
+        },
+        "administratorLogin": {
+            "value": ""
+        },
+        "databaseName": {
+            "value": "Fabrikam-Express"
+        },
+        "webDeployPackageURI": {
+	        "type": "string",
+            "value": "https://youraccountname.blob.core.windows.net/webdeploypackages/FabrikamFiber.WebDeploy.Package.zip"
+	    },
+        "administratorLoginPassword": {
+            "value": ""
+        }
+    }
+}
